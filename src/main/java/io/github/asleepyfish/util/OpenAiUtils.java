@@ -34,7 +34,7 @@ import io.github.asleepyfish.enums.model.ModelEnum;
 import io.github.asleepyfish.service.OpenAiProxyService;
 import lombok.NonNull;
 
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.OutputStream;
 import java.util.Collections;

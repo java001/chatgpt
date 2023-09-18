@@ -42,6 +42,7 @@ import io.github.asleepyfish.enums.image.ImageSizeEnum;
 import io.github.asleepyfish.enums.model.ModelEnum;
 import io.github.asleepyfish.exception.ChatGPTException;
 import io.github.asleepyfish.service.openai.OpenAiService;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.NonNull;
 import okhttp3.*;
 import org.apache.commons.logging.Log;
@@ -49,7 +50,7 @@ import org.apache.commons.logging.LogFactory;
 import retrofit2.Retrofit;
 
 import javax.imageio.ImageIO;
-import javax.servlet.http.HttpServletResponse;
+
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.ComponentColorModel;
